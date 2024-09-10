@@ -38,12 +38,27 @@
     <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
     <string name="bottomsheet_drag_handle_clicked">Dwukrotnie kliknięto uchwyt do przeciągania</string>
     <string name="bottomsheet_drag_handle_content_description">Uchwyt do przeciągania</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Odbierz"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Wideo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Odrzuć"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Rozłącz"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Połączenie przychodzące"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Trwa połączenie"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtruję połączenie przychodzące"</string>
     <string name="character_counter_content_description">%1$d z %2$d znaków</string>
     <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Wyczyść tekst</string>
+    <string msgid="406453423630273620" name="close_drawer">"Zamknij menu nawigacyjne"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Zamknij arkusz"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Nieprawidłowe dane wejściowe"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Wyskakujące okienko"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu"</string>
+    <string name="error_a11y_label">Błąd: nieprawidłowe</string>
     <string name="error_icon_content_description">Błąd</string>
     <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
     <string name="icon_content_description">Ikona okna</string>
+    <string msgid="6827826412747255547" name="in_progress">"W toku"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Częściowo zaznaczone"</string>
     <string name="item_view_role_description">Karta</string>
     <string name="material_clock_toggle_content_description">Wybierz: przed południem czy po południu</string>
     <string name="material_hour_24h_suffix">%1$s godz.</string>
@@ -59,6 +74,9 @@
     <string name="material_timepicker_select_time">Określ czas</string>
     <string name="material_timepicker_text_input_mode_description">Aby wprowadzić czas, włącz tryb wprowadzania tekstu.</string>
     <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_checkbox_state_description_checked">Zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Częściowo zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nie zaznaczono</string>
     <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Liczba nowych powiadomień przekracza %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
@@ -71,7 +89,7 @@
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Wybierz datę</string>
     <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">Data zakończenia %1$s</string>
     <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
     <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
@@ -100,7 +118,23 @@
     <string name="mtrl_picker_toggle_to_year_selection">Kliknij, aby przełączyć się na widok roku</string>
     <string name="mtrl_timepicker_cancel">Anuluj</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu nawigacyjne"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Nie wybrano"</string>
     <string name="password_toggle_content_description">Pokaż hasło</string>
+    <string msgid="5941395253238309765" name="range_end">"Koniec zakresu"</string>
+    <string msgid="7097486360902471446" name="range_start">"Początek zakresu"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
+    <string name="searchview_clear_text_content_description">Wyczyść tekst</string>
+    <string name="searchview_navigation_content_description">Wstecz</string>
+    <string msgid="6043586758067023" name="selected">"Wybrano"</string>
+    <string name="side_sheet_accessibility_pane_title">Arkusz boczny</string>
+    <string msgid="4139871816613051306" name="state_empty">"Puste"</string>
+    <string msgid="5834637030682409883" name="state_off">"Wyłączono"</string>
+    <string msgid="1490883874751719580" name="state_on">"Włączono"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Przełącznik"</string>
+    <string msgid="1672349317127674378" name="tab">"Karta"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"etykietka"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"pokaż etykietkę"</string>
 </resources>
