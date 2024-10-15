@@ -30,14 +30,20 @@
           <theme>@style/Theme.HelloWord</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml">
+        <config>
+          <theme>@style/Theme.HelloWord</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b296a53-0da0-4e36-88ab-60f64059f473" name="Changes" comment="test2">
-      <change beforePath="$PROJECT_DIR$/../TestDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDemo" afterDir="false" />
+    <list default="true" id="5b296a53-0da0-4e36-88ab-60f64059f473" name="Changes" comment="commitTest">
+      <change beforePath="$PROJECT_DIR$/../TestDemo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +125,7 @@
     <hideBySeverity>
       <option value="300" />
     </hideBySeverity>
-    <option name="selectedTabId" value="_Designer_Tab" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -144,10 +150,10 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Cherry-picking in master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Software/Android Studio/AndroidProject/helloworld/app/src/main/res/mipmap-hdpi",
-    "last_opened_file_path": "D:/Software/Android Studio/AndroidProject",
+    "last_opened_file_path": "D:/Software/Android Studio/AndroidProject/Layout",
     "project.structure.last.edited": "Dependencies",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -313,6 +319,23 @@
       <option name="presentableId" value="Default" />
       <updated>1725331929291</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024.10.15">
+      <option name="closed" value="true" />
+      <created>1728984208283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728984208283</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commitTest">
+      <option name="closed" value="true" />
+      <created>1728984326217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728984326217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,12 +351,12 @@
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="HEAD" />
+                  <option value="origin/master" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="origin/master" />
+                  <option value="HEAD" />
                 </option>
               </RecentGroup>
             </list>
@@ -346,6 +369,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/H-ok-mark/Learning into HEAD" />
     <MESSAGE value="Merge branch 'master' of https://github.com/H-ok-mark/Learn into HEAD" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="2024.10.15" />
+    <MESSAGE value="commitTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="commitTest" />
   </component>
 </project>
