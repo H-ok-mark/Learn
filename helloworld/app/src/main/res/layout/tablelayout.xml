@@ -1,0 +1,165 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:stretchColumns="*"> <!-- 使所有列等宽 -->
+
+    <!-- 假设每个菜单项占一行 -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- 菜单项 "打开" -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Open..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+        <!-- 快捷键 "Ctrl+o" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Ctrl-O"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="16dp" />
+
+    </TableRow>
+
+    <!-- 重复上面的TableRow来添加其他菜单项 -->
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Save..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Ctrl-S"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="16dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Save As..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Ctrl-Shift-S"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="16dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="5dp"
+        android:background="#FFFFFF">
+
+        <View
+            android:layout_width="5dp"
+            android:layout_weight="1"
+            android:layout_height="3dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="X Import..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="X Export..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Ctrl-E"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="16dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="X Import..."
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Quit"
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp" />
+
+    </TableRow>
+
+
+    <!-- ... 添加更多菜单项 ... -->
+
+</TableLayout>

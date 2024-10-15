@@ -10,7 +10,7 @@
           <theme>@style/Theme.HelloWord</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/constraintlayout.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/commit_test.xml">
         <config>
           <theme>@style/Theme.HelloWord</theme>
         </config>
@@ -20,7 +20,12 @@
           <theme>@style/Theme.HelloWord</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/linearlayout.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/demo.xml">
+        <config>
+          <theme>@style/Theme.HelloWord</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/lilnear_layout_test.xml">
         <config>
           <theme>@style/Theme.HelloWord</theme>
         </config>
@@ -41,9 +46,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b296a53-0da0-4e36-88ab-60f64059f473" name="Changes" comment="commitTest">
-      <change beforePath="$PROJECT_DIR$/../TestDemo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5b296a53-0da0-4e36-88ab-60f64059f473" name="Changes" comment="commit_test2">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/test.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,18 +113,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "H-ok-mark"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;H-ok-mark&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:H-ok-mark/learn.git",
-    "accountId": "a9e51ece-e4f7-4912-90f3-2ef177a66a13"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:H-ok-mark/learn.git&quot;,
+    &quot;accountId&quot;: &quot;a9e51ece-e4f7-4912-90f3-2ef177a66a13&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="300" />
@@ -150,7 +154,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "Cherry-picking in master",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Software/Android Studio/AndroidProject/helloworld/app/src/main/res/mipmap-hdpi",
     "last_opened_file_path": "D:/Software/Android Studio/AndroidProject/Layout",
@@ -335,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728984326217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit_test2">
+      <option name="closed" value="true" />
+      <created>1728985304366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728985304366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +383,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="2024.10.15" />
     <MESSAGE value="commitTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="commitTest" />
+    <MESSAGE value="commit_test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit_test2" />
   </component>
 </project>
